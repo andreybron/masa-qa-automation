@@ -17,8 +17,8 @@ public class Homework_3 {
 
         //Task 1.2
         System.out.println("---Task_1.2---");
-        byte a = 5;
-        byte b = 8;
+        byte a = 5; //Value is less than 127, so I used byte
+        byte b = 8; //Value is less than 127, so I used byte
         int result_a = 0;
         int result_b = 0;
         result_a = a-- - --a + ++a + a++ + a;
