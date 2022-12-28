@@ -1,4 +1,4 @@
-package Lesson_0301;
+package lesson_0301;
 
 public class Ternary {
     public static void main(String[] args) {
