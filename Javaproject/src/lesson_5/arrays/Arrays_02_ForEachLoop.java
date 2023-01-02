@@ -12,6 +12,7 @@ public class Arrays_02_ForEachLoop {
         System.out.println();
 
         int array[] = new int[10];
+
     //iter
         for (int number : array) {
             System.out.print(number + " ");
