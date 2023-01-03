@@ -1,6 +1,6 @@
 package lesson_4.homework;
 
-public class Even_1000 {
+public class FOR_Even_1000 {
     public static void main(String[] args) {
 
         int i = 0; //counter for formatting
@@ -20,3 +20,5 @@ public class Even_1000 {
         }
     }
 }
+
+// Вывести все четные числа от 1000 до 0, ипользуя цикл FOR
