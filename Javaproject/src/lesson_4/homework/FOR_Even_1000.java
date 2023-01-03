@@ -1,3 +1,4 @@
+// Print all even numbers from 1000 to 0 using a FOR loop
 package lesson_4.homework;
 
 public class FOR_Even_1000 {
@@ -7,11 +8,13 @@ public class FOR_Even_1000 {
 
         System.out.println("Even numbers from 1000 to 0:");
 
-        //parity check
         for (int j = 1000; j >= 0; j--, i++) {
+
+            //parity check
             if (j % 2 == 0) {
                 System.out.print(" " + j);
             }
+
             //print out formatting
             if (i == 50) {
                 System.out.println();
@@ -20,5 +23,3 @@ public class FOR_Even_1000 {
         }
     }
 }
-
-// Вывести все четные числа от 1000 до 0, ипользуя цикл FOR
