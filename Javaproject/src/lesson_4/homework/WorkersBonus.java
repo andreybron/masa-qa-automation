@@ -50,6 +50,7 @@ public class WorkersBonus {
             System.out.println("------------------");
             System.out.println("ERROR! Try again, using NON-NEGATIVE values!");
         }
+        input.close();
     }
 
 }

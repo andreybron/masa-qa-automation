@@ -37,6 +37,7 @@ public class Interval {
         } else {
             System.out.println(interval);
         }
+        input.close();
     }
 }
 

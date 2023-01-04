@@ -42,6 +42,6 @@ public class UserPass {
         if (!correct) {
             System.out.println("Incorrect username or password. No attempts left. Program terminated.");
         }
-
+        input.close();
     }
 }
