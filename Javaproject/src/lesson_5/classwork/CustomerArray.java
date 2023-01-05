@@ -14,7 +14,7 @@ public class CustomerArray {
 
         for (int i = 0; i < myArray.length; i++) {
             myArray[i] = (100 * random.nextDouble());
-            System.out.println("myArray[i] = " + myArray[i]);
+            System.out.println("myArray[" + i + "] = " + myArray[i]);
             if (myArray[i] > max) {
                 max = myArray[i];
             }
@@ -29,7 +29,16 @@ public class CustomerArray {
         System.out.println("min = " + min);
         System.out.println("summ = " + summ);
         System.out.println("average = " + summ / myArray.length);
+
+        for (double number:myArray
+             ) {
+            if (number % 2 != 0){
+                System.out.println(number);
+            }
+
+        }
     }
+
 }
 
 //    Используя Intellij IDEA, создайте класс CustomerArray.
