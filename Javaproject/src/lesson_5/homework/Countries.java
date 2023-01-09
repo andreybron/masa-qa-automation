@@ -40,10 +40,10 @@ public class Countries {
 
         //3.Using ContainsKey, ContainsValue methods
         System.out.println("---3.Using ContainsKey, ContainsValue methods---");
-        System.out.println(countries.containsKey("Tel-Aviv"));
-        System.out.println(countries.containsKey("Tel-aviv"));
-        System.out.println(countries.containsValue("Germany"));
-        System.out.println(countries.containsValue("Russia"));
+        System.out.println("countries.containsKey(\"Tel-Aviv\"):" + countries.containsKey("Tel-Aviv"));
+        System.out.println("countries.containsKey(\"Tel-aviv\"):" + countries.containsKey("Tel-aviv"));
+        System.out.println("countries.containsValue(\"Germany\"):" + countries.containsValue("Germany"));
+        System.out.println("countries.containsValue(\"Russia\"):" + countries.containsValue("Russia"));
 
 
     }
