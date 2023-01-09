@@ -10,7 +10,7 @@ public class RandomValuesArray {
         int array[] = new int[100];
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt();
+            array[i] = random.nextInt(50);
             System.out.println("array[" + i + "] = " + array[i]);
         }
         System.out.println("***");
