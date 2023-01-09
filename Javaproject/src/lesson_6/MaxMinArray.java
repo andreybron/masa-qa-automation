@@ -20,8 +20,8 @@ public class MaxMinArray {
 
         System.out.println("min: " + min);
         System.out.println("max: " + max);
-        System.out.println("avg: " + avg);
-        System.out.println("avg: " + avg2);
+        System.out.println("avg : " + avg);
+        System.out.println("avg2: " + avg2);
     }
 
     public static double findMin(double[] values) {
