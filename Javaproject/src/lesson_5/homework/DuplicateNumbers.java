@@ -14,6 +14,7 @@ public class DuplicateNumbers {
             numbers.add(random.nextInt(50));
             System.out.print(" " + numbers.get(i));
         }
+        System.out.println();
 
         //count duplicate elements with HashMap
         HashMap<Integer, Integer> collection = new HashMap<>();
@@ -34,7 +35,9 @@ public class DuplicateNumbers {
 //        }
 
         //print number of occurrences
-        collection.forEach((num, summ) -> System.out.println("'" + num + "': " + summ + " times"));
+        System.out.println("number of occurrences:");
+        collection.forEach((num, sum) -> System.out.println("'" + num + "': " + sum + " times"));
+        System.out.println("number of unique numbers = " + collection.size());
 
     }
 }
