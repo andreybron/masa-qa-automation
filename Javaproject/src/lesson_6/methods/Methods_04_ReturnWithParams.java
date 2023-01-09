@@ -10,7 +10,7 @@ public class Methods_04_ReturnWithParams {
         int first = 6;
         int second = 8;
         System.out.println(sumNumbers(first, second));
-        
+
     }
 
     public static int sumNumbers(int a, int b){
