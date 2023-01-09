@@ -7,7 +7,7 @@ import java.util.HashSet;
 public class Countries {
     public static void main(String[] args) {
 
-        // create HashMap
+        // create HashMap with cities & countries
         HashMap<String, String> countries = new HashMap<>();
         countries.put("Rome", "Italy");
         countries.put("Venice", "Italy");
@@ -38,8 +38,8 @@ public class Countries {
 //        or:
 //        System.out.println(countries);
 
-        //Using ContainsKey, ContainsValue methods
-        System.out.println("---Using ContainsKey, ContainsValue methods---");
+        //3.Using ContainsKey, ContainsValue methods
+        System.out.println("---3.Using ContainsKey, ContainsValue methods---");
         System.out.println(countries.containsKey("Tel-Aviv"));
         System.out.println(countries.containsKey("Tel-aviv"));
         System.out.println(countries.containsValue("Germany"));
