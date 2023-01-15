@@ -30,4 +30,18 @@ public class Car {
     public void carIsReady() {
         System.out.println("I'm ready!");
     }
+
+    public void printCarInfo() {
+        System.out.println(this);
+    }
+    @Override
+    public String toString() {
+        return "Car{" +
+                "manufacturer='" + manufacturer + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", color='" + color + '\'' +
+                ", isElectrical=" + isElectrical +
+                '}';
+    }
 }
