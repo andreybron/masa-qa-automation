@@ -3,7 +3,7 @@ package lesson_7.car;
 public class MyCars {
     public static void main(String[] args) {
 
-        Car bmw = new Car();
+        Car bmw = new Car("black");
         bmw.carIsReady();
         System.out.println("bmw.color = " + bmw.color);
         bmw.color = "BLACK";
@@ -19,10 +19,11 @@ public class MyCars {
         bmw.manufacturer = "BMW";
 
         //Create another car
-        Car tesla = new Car();
+        Car tesla = new Car("RED");
+        System.out.println("tesla.color = " + tesla.color);
         tesla.color = "white";
         tesla.year = 2022;
-
         System.out.println("tesla.manufacturer = " + tesla.manufacturer);
+        System.out.println("tesla.color = " + tesla.color);
     }
 }
