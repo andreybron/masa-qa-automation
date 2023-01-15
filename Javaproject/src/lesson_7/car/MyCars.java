@@ -19,7 +19,7 @@ public class MyCars {
         bmw.manufacturer = "BMW";
 
         //Create another car
-        Car tesla = new Car("RED");
+        Car tesla = new Car();
         System.out.println("tesla.color = " + tesla.color);
         tesla.color = "white";
         tesla.year = 2022;
@@ -29,8 +29,12 @@ public class MyCars {
         //Create one more
         Car toyota = new Car("toyota","Rav4", 2008, "silver", false);
 
+        Car newCar = new Car();
         toyota.printCarInfo();
         System.out.println(/*" .toString() = " + */toyota.toString());
         System.out.println(toyota);
+        System.out.println("Car.wasCreated = " + Car.wasCreated);
+        newCar.printCarInfo();
+        Car.classOccurrences();
     }
 }
