@@ -27,7 +27,7 @@ public class MyCars {
         System.out.println("tesla.color = " + tesla.color);
 
         //Create one more
-        Car toyota = new Car("toyota","Rav4", 2008, "silver", false);
+        Car toyota = new Car("toyota", "Rav4", 2008, "silver", false);
 
         Car newCar = new Car();
         toyota.printCarInfo();

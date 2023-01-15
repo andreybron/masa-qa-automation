@@ -18,6 +18,7 @@ public class Car {
         System.out.println("wasCreated = " + wasCreated);
 
     }
+
     public Car(String color) {
         this.color = color;
         created++;
@@ -25,6 +26,7 @@ public class Car {
         System.out.println("created = " + created);
         System.out.println("wasCreated = " + wasCreated);
     }
+
     public Car(String manufacturer, int year) {
         this.manufacturer = manufacturer;
         this.year = year;
@@ -49,12 +51,15 @@ public class Car {
     public void carIsReady() {
         System.out.println("I'm ready!");
     }
+
     public static void classOccurrences() {
         System.out.println("classOccurrences = " + wasCreated);
     }
+
     public void printCarInfo() {
         System.out.println(this);
     }
+
     @Override
     public String toString() {
         return "Car{" +
