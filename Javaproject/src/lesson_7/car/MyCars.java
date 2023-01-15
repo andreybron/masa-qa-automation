@@ -25,5 +25,12 @@ public class MyCars {
         tesla.year = 2022;
         System.out.println("tesla.manufacturer = " + tesla.manufacturer);
         System.out.println("tesla.color = " + tesla.color);
+
+        //Create one more
+        Car toyota = new Car("toyota","Rav4", 2008, "silver", false);
+
+        toyota.printCarInfo();
+        System.out.println(/*" .toString() = " + */toyota.toString());
+        System.out.println(toyota);
     }
 }
