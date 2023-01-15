@@ -18,6 +18,15 @@ public class Car {
         this.manufacturer = manufacturer;
         this.year = year;
     }
+
+    public Car(String manufacturer, String model, int year, String color, boolean isElectrical) {
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+        this.isElectrical = isElectrical;
+    }
+
     public void carIsReady() {
         System.out.println("I'm ready!");
     }
