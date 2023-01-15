@@ -27,6 +27,7 @@ public class DuplicateNumbers {
                 collection.put(num, 1);
             }
         }
+
         //TODO: filter hashmap not to contain values less than 2
 //        for (int i = 0; i < collection.size(); i++) {
 //            if (collection.containsValue(1)) {
@@ -39,6 +40,17 @@ public class DuplicateNumbers {
         collection.forEach((num, sum) -> System.out.println("'" + num + "': " + sum + " times"));
         System.out.println("number of unique numbers = " + collection.size());
 
+        //TODO: filter hashmap not to contain values less than 2 //by Alex
+        ArrayList<Integer> list = new ArrayList<>();
+        collection.forEach((key, value) -> {
+            if (value == 1) {
+                list.add(key);
+            }
+        });
+        for (Integer key : list) {
+            collection.remove(key);
+        }
+        System.out.println("number of duplicate numbers = " + collection.size());
     }
 }
 
