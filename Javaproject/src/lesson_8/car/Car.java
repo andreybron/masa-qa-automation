@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Car {
 
     //1. Fields
-    
+
     private String brand;
     private String model;
     private int year;
