@@ -9,7 +9,7 @@ public class Computer {
     private Chip cpu;
     private Memory[] ram;
     private SolidDrive ssd;
-    public double price;
+    private double price;
 
     //2. Constructors
 
