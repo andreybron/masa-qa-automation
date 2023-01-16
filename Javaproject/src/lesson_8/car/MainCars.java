@@ -16,5 +16,7 @@ public class MainCars {
         car.wheels[1].radius = -5;
 
         System.out.println("car = " + car);
+
+        car.sayHello();
     }
 }

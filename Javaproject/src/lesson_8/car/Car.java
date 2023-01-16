@@ -78,6 +78,6 @@ public class Car {
     }
 
     public void sayHello() {
-        System.out.println("The car " + model + " " + " says hello!");
+        System.out.println("The car " + brand + " " + model + " says hello!");
     }
 }
