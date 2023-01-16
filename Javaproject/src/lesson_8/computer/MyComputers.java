@@ -56,7 +56,7 @@ public class MyComputers {
                 500000
         ));
 
-//        computers.forEach(System.out::println);
+        computers.forEach(System.out::println);
         System.out.println("computers.get(3).getRam() = " + Arrays.toString(computers.get(3).getRam()));
     }
 }
