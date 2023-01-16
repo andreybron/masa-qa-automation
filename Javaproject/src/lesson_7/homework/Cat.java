@@ -12,7 +12,7 @@ public class Cat {
         this.name = name;
         this.color = color;
         while (age < 0 || age > 50) {
-            System.out.println("Error! For cat \' " + name + " \' age out of range! Input manual:");
+            System.out.println("Error! For cat \'" + name + "\' age out of range! Input manual:");
             input = new Scanner(System.in);
             age = input.nextInt();
         }
@@ -41,7 +41,7 @@ public class Cat {
 
     public void setAge(int age) {
         while (age < 0 || age > 50) {
-            System.out.println("Error! For cat \' " + name + " \' age out of range! Input manual:");
+            System.out.println("Error! For cat \'" + name + "\' age out of range! Input manual:");
             input = new Scanner(System.in);
             age = input.nextInt();
         }
