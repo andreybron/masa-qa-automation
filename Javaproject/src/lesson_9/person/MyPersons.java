@@ -1,5 +1,8 @@
 package lesson_9.person;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MyPersons {
     public static void main(String[] args) {
 
@@ -14,5 +17,15 @@ public class MyPersons {
         System.out.println("student.getAge() = " + student.getAge());
         Child child = new Child("Alex", "Komanov", 34, true);
         Person childPerson = new Child("person", "child", 45, false);
+        child.whoAreYou();
+        childPerson.whoAreYou();
+
+        System.out.println("***");
+        List<Person> list = new ArrayList<>();
+        list.add(student);
+        list.add(child);
+        list.add(childPerson);
+
+        list.forEach(who -> who.whoAreYou());
     }
 }

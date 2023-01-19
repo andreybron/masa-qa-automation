@@ -7,6 +7,11 @@ public class Child extends Person {
 
     @Override
     public void whoAreYou() {
-        System.out.println("I");
+        System.out.println("I'm a child");
+    }
+
+    @Override
+    public void whatIsYourName() {
+        super.whatIsYourName();
     }
 }
