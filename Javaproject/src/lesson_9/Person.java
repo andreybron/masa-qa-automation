@@ -14,7 +14,7 @@ public class Person {
         this.isJewish = isJewish;
     }
 
-    public Person(String lastName) {
+    public Person() {
     }
 
     public String getFirstName() {
@@ -44,6 +44,6 @@ public class Person {
     }
 
     public void whatIsYourName() {
-        System.out.println("My name is " + firstName + lastName + "");
+        System.out.println("My name is " + firstName + " " + lastName + "");
     }
 }
