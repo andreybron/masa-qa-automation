@@ -4,7 +4,7 @@ public class Rook extends Figure{
 
     @Override
     public void move() {
-        
+
     }
 
     @Override
