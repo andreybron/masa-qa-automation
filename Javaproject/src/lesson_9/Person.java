@@ -14,6 +14,9 @@ public class Person {
         this.isJewish = isJewish;
     }
 
+    public Person(String lastName) {
+    }
+
     public String getFirstName() {
         return firstName;
     }
