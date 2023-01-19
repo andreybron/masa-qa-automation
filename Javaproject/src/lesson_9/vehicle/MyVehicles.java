@@ -13,6 +13,7 @@ public class MyVehicles {
         vehicleList.add(new Truck("volvo", 2023, "diesel", "white"));
 
         vehicleList.forEach(item -> item.whoAreYou());
+        System.out.println("vehicleList = " + vehicleList);
     }
 
 }
