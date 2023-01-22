@@ -19,8 +19,8 @@ public class MyShapes {
                 case 1:
                     Messages.printShapesMenu();
                     int subOption = input.nextInt();
-                        System.out.println("Input color of your shape");
-                        String color = input.nextLine();
+                    System.out.println("Input color of your shape");
+                    String color = input.next();
                     switch (subOption) {
                         case 1:
                             System.out.println("Input square side size");
@@ -28,7 +28,6 @@ public class MyShapes {
                             collectionOfShapes.add(new Square(color, side));
                             break;
                         case 2:
-                            Messages.printCollectionOfShapes();
                             break;
                         case 3:
                             break;
@@ -38,6 +37,15 @@ public class MyShapes {
 
                     break;
                 case 2:
+                    Messages.printCollectionOfShapes(collectionOfShapes);
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
                     break;
                 case 7:
                     System.out.println("Programme terminated, see You!");
