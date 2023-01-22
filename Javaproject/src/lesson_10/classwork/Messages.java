@@ -5,7 +5,7 @@ import java.util.List;
 public class Messages {
 
     public static void printMainMenu() {
-        System.out.println("\n Please choose");
+        System.out.println("\nPlease choose");
         System.out.println("1. Add new shape");
         System.out.println("2. List all shapes");
         System.out.println("3. Sum all circumferences");
@@ -16,7 +16,7 @@ public class Messages {
     }
 
     public static void printShapesMenu() {
-        System.out.println("Please choose from the next Shapes:");
+        System.out.println("\nPlease choose from the next Shapes:");
         System.out.println("1. Square");
         System.out.println("2. Rectangle");
         System.out.println("3. Circle");
