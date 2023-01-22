@@ -1,9 +1,11 @@
 package lesson_10.classwork;
 
+import java.util.List;
+
 public class Messages {
 
     public static void printMainMenu() {
-        System.out.println("Please choose");
+        System.out.println("\n Please choose");
         System.out.println("1. Add new shape");
         System.out.println("2. List all shapes");
         System.out.println("3. Sum all circumferences");
@@ -19,6 +21,14 @@ public class Messages {
         System.out.println("2. Rectangle");
         System.out.println("3. Circle");
         System.out.println("4. Right triangle");
+    }
+
+    public static void printCollectionOfShapes(List<Shape> list) {
+        if (list.size() == 0) {
+            System.out.println("There are no shapes in the list");
+            return;
+        }
+        list.forEach(shape -> System.out.println(shape));
     }
 }
 //Add new shape
