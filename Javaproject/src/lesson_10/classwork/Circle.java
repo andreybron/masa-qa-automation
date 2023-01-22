@@ -10,6 +10,13 @@ public class Circle extends Shape {
     }
 
     @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                " " + super.toString();
+    }
+
+    @Override
     public double calculateArea() {
         return Math.pow(radius, 2) * Math.PI;
     }
