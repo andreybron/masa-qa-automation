@@ -28,10 +28,13 @@ public class MyShapes {
                             collectionOfShapes.add(new Square(color, side));
                             break;
                         case 2:
+
                             break;
                         case 3:
+
                             break;
                         case 4:
+
                             break;
                     }
 
@@ -40,12 +43,16 @@ public class MyShapes {
                     Messages.printCollectionOfShapes(collectionOfShapes);
                     break;
                 case 3:
+
                     break;
                 case 4:
+
                     break;
                 case 5:
+
                     break;
                 case 6:
+
                     break;
                 case 7:
                     System.out.println("Programme terminated, see You!");
